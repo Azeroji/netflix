@@ -1,0 +1,21 @@
+.main{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+p{
+    font-size: 22px;
+}
+
+.top-movies {
+    display:flex;
+    column-gap: 20px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.top-movies::-webkit-scrollbar{
+    width: 0;
+}
+
+
